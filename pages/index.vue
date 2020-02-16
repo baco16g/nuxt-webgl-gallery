@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-gray-300 h-screen">
-    <div class="mx-auto	 max-w-screen-lg px-12 lg:px-0">
+  <div class="bg-gray-300 min-h-screen h-full pb-12">
+    <div class="mx-auto	max-w-screen-lg px-12 lg:px-0">
       <h1 class="text-3xl font-bold py-12 text-gray-800">
         WebGL's Portfolio by baoc16g
       </h1>
