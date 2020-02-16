@@ -14,7 +14,13 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/nuxt-webgl-gallery/favicon.ico'
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -57,5 +63,8 @@ export default {
         })
       }
     }
+  },
+  router: {
+    base: '/nuxt-webgl-gallery/'
   }
 }
