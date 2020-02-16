@@ -148,7 +148,7 @@ export default class Gl {
 
   public createCoreMesh(): THREE.Mesh {
     const textureCube = new THREE.CubeTextureLoader().load(
-      ['px', 'nx', 'py', 'ny', 'pz', 'nz'].map((t) => `/001/cubemap/${t}.png`)
+      ['px', 'nx', 'py', 'ny', 'pz', 'nz'].map((t) => `cubemap/${t}.png`)
     )
     textureCube.format = THREE.RGBFormat
     const shader = FresnelShader

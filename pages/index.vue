@@ -7,18 +7,13 @@
       <div
         class="grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-1 gap-4"
       >
-        <nuxt-link to="/works/001">
-          <VideoCard
-            title="Hallows"
-            to="/works/001"
-            video-url="/001/output.webm"
-          />
+        <nuxt-link to="/works/001/" extract>
+          <VideoCard title="Hallows" video-url="001.webm" />
         </nuxt-link>
-        <nuxt-link to="/works/002">
+        <nuxt-link to="/works/002/" extract>
           <VideoCard
             title="Destruction and regeneration"
-            ti="/works/002"
-            video-url="/002/output.webm"
+            video-url="002.webm"
           />
         </nuxt-link>
       </div>

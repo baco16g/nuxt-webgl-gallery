@@ -147,7 +147,7 @@ export default class Gl {
 
   public createEnvMesh(): THREE.Mesh {
     const textureCube = new THREE.CubeTextureLoader().load(
-      ['px', 'nx', 'py', 'ny', 'pz', 'nz'].map((t) => `/002/cubemap/${t}.jpg`)
+      ['px', 'nx', 'py', 'ny', 'pz', 'nz'].map((t) => `cubemap/${t}.jpg`)
     )
     textureCube.format = THREE.RGBFormat
     return new THREE.Mesh(
