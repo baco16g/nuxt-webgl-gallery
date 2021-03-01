@@ -22,7 +22,7 @@
   "dependencies": {
     "@vue/composition-api": "^0.3.4",
     "nuxt": "^2.0.0",
-    "three": "^0.113.2"
+    "three": "^0.125.0"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.5.6",
